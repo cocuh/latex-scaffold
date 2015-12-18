@@ -1,9 +1,0 @@
-LATEX = platex
-DVIPDFM = dvipdfmx
-LATEXFLAGS = --synctex=1
-
-target = main
-
-LaTeXDocument($(target), $(target))
-
-.DEFAULT: $(target).pdf $(target).dvi
