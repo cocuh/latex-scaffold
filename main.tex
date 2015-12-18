@@ -1,0 +1,30 @@
+\documentclass[a4paper]{jsarticle}
+\usepackage{cocuh-core}
+\usepackage{cocuh-math}
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+  \section{ようじょでしょ}
+  \begin{eqnarray}
+  \mathcal{Y}:&&\text{youjo domain}\\
+  \mathcal{Y}':&&\text{pseudo youjo domain}\\
+  \mathcal{O}:&&\text{omawarisan domain}
+  \end{eqnarray}
+  \begin{gather}
+    \mathtt{sawasawa}:\mathcal{Y}\cup\mathcal{Y}'\cup\mathcal{O}\to\mathcal{O}\\
+  \end{gather}
+  \begin{definition}
+    $\mathtt{ninja}$ is secure if $\forall y\in\mathcal{Y}, \mathtt{ninja}(y, \mathtt{sawasawa})$ returns $\text{null}$.
+  \end{definition}
+  \begin{definition}
+    $\mathtt{ninja}$ is hiwai if $\forall y\in\mathcal{Y}, \mathtt{ninja}(y, \mathtt{sawasawa})$ returns $\text{null}\text{null}$.
+  \end{definition}
+  \begin{theorem}
+    $\mathtt{ninja}$ is secure, then $\mathtt{ninja}(\mat{Y}).\mathtt{sawasawa}()$ raises NullPointerException
+  \end{theorem}
+  \begin{proof}
+    ガッ
+  \end{proof}
+\end{document}

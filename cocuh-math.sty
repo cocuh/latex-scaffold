@@ -1,0 +1,24 @@
+% math aliases
+\newcommand{\p}[1]{\ensuremath{\mathrm{Pr}(#1)}}
+\renewcommand{\vec}[1]{\ensuremath{\mathbf #1}}
+\newcommand{\mat}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\set}[1]{\ensuremath{\left\{#1\right\}}}
+\newcommand{\T}{\ensuremath{^{\intercal}}}
+
+\newcommand{\E}[2][]{\ensuremath{\mathrm{E}_{#1}\left[ #2 \right]}}
+\newcommand{\Var}[2][]{\ensuremath{\mathrm{Var}_{#1}\left[#2\right]}}
+\newcommand{\Cov}[3][]{\ensuremath{\mathrm{Cov}_{#1}\left[#2,#3\right]}}
+
+\newcommand{\sgn}[1]{\ensuremath{\mathrm{sgn}(#1)}}
+\newcommand{\argmin}[2][]{\ensuremath{\mathop{\mathrm{arg~min}}\limits_{#1}#2}}
+\newcommand{\argmax}[2][]{\ensuremath{\mathop{\mathrm{arg~max}}\limits_{#1}#2}}
+\newcommand{\Tr}[1]{\ensuremath{\mathrm{Tr}\left(#1\right)}}
+
+\newcommand{\RealSet}{\mathbb{R}}
+\newcommand{\ComplexSet}{\mathbb{C}}
+\newcommand{\NaturalSet}{\mathbb{N}}
+
+% cocuh todo env
+\newlist{todo}{itemize}{2}
+\setlist[todo]{label=$\square$}
+\newcommand{\done}{$\text{\rlap{$\checkmark$}}\square$}
