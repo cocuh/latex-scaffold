@@ -1,7 +1,7 @@
 # latex-scaffold
 
 ## my env
-- OMake
+- latexmk
 - platex -> dvipdfmx chain
 - atom
   - pdf-view
