@@ -1,0 +1,19 @@
+#!/bin/env python
+import os.path
+
+
+PATH = os.path.dirname(os.path.abspath(__file__))
+
+files = [
+    "cocuh-core.sty",
+    "cocuh-math.sty",
+    "main.tex",
+    "main.bib",
+    "Makefile",
+    ".latexmkrc",
+]
+
+print('\n'.join(
+    os.path.join(PATH, name)
+    for name in files
+))
