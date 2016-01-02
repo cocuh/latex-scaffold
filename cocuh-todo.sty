@@ -1,0 +1,7 @@
+\usepackage{enumitem} % for \newlist and \setlist
+\newcommand{\todo}[1]{{\large\color{red} #1}}
+
+
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\newcommand{\done}{$\text{\rlap{$\checkmark$}}\square$}
