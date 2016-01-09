@@ -8,6 +8,7 @@ files = [
     "cocuh-core.sty",
     "cocuh-math.sty",
     "cocuh-todo.sty",
+    "cocuh-dummytext.sty",
     "main.tex",
     "main.bib",
     "Makefile",
