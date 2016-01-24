@@ -1,8 +1,13 @@
-\documentclass[a4paper]{jsarticle}
+\documentclass[a4paper, dvipdfmx]{jsarticle}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage[dvipdfmx]{graphicx,color}
 \usepackage{cocuh-core}
 \usepackage{cocuh-math}
 \usepackage{cocuh-todo}
 \usepackage{notation}
+
+% for algorithm \Call
+\algrenewcommand\textproc\text
 
 \newtheorem{definition}{Definition}
 \newtheorem{theorem}{Theorem}
