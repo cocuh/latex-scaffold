@@ -124,3 +124,13 @@ sympy-plots-for-*.tex/
 # WinEdt
 *.bak
 *.sav
+
+# cocuh
+main.dvi
+main.log
+main.pdf
+main.synctex.gz
+main.fdb_latexmk
+main.bbl
+main.blg
+main.out
