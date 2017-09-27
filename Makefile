@@ -2,4 +2,4 @@
 VIEWER=default
 
 watch:
-	latexmk -pvc -view=${VIEWER}
+	latexmk -pvc -view=${VIEWER} main
